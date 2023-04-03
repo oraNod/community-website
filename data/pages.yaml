@@ -1,0 +1,348 @@
+# Latest Ansible package version
+ansible_pkg:
+  announce: Ansible 7 is now available
+  pip_install: pip install ansible
+# Content for the index page
+index:
+  title: Ansible community documentation
+  intro: Ansible offers powerful and flexible automation that is simple, decentralized, and easy.
+  novice_heading: Get started with Ansible
+  # Ansible user
+  user_heading: Using Ansible
+  user_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
+  user_resources_heading: User resources
+  user_resources_body: Structure your project with roles, improve content quality, re-use existing automation, and more.
+  user_resources_action: Continue the Ansible user journey
+  # Ansible developer
+  developer_heading: Ansible developers
+  developer_body: Ansible is open source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.
+  developer_resources_heading: Developer resources
+  developer_resources_body: Contribute to an Ansible project or collection, run sanity tests, write integration and unit tests, and more.
+  developer_resources_action: Continue the Ansible developer journey
+  # Community maintainer
+  maintainer_heading: Community maintainers
+  maintainer_body: Ansible maintainers are responsible for the ongoing quality of  Ansible projects and collections and play a vital role in guiding the direction of the wider community.
+  maintainer_resources_heading: Community maintainer resources
+  maintainer_resources_body: Handle project lifecycles, ensure the health of collections, join the Ansible steering committee, and more.
+  maintainer_resources_action: Continue the Ansible community maintainer journey
+# Actions for novice journeys
+novice:
+  learn: Understand the fundamentals of Ansible automation
+  install: Install the Ansible package
+  start: Write your first playbook in a few easy steps
+# Actions for user journeys
+user:
+  title: User resources
+  intro: Automate the management of remote systems and control their desired state.
+  milestone:
+    automate: Create automation
+    build_inventory: Build inventories
+    organize: Organize automation projects
+    tooling: Use Ansible tooling
+    find: Find automation content
+    share: Share automation content
+    awx: Schedule and run automation jobs
+    executor: Embed automation in systems
+  automate:
+    intro: Write playbooks and develop content that automates complex tasks.
+    start: Start writing Ansible playbooks
+    evaluate_plugins: Learn which plugins to use for your tasks
+  build_inventory:
+    intro: Build inventories that list and describe your infrastructure.
+    multiple_hosts: Build inventory files to manage multiple hosts
+    dynamic: Use dynamic inventories
+  organize:
+    intro: Organize your automation project as it grows.
+    roles: Use roles to structure the automation project
+  tooling:
+    intro: Validate and improve your project for consistent, trusted automation.
+    lint: Use Ansible Lint to validate playbooks
+    molecule: Install Molecule to develop and test Ansible roles
+    navigator: Create and test playbooks with Ansible Navigator
+    vscode: Use Ansible with Visual Studio Code and OpenVSX compatible editors
+  find:
+    intro: Discover and use existing automation content.
+    explore_galaxy: Start exploring Ansible Galaxy
+    install_roles: Install and use roles
+    install_collections: Install and use collections
+    customize_content: Customize automation content
+  share:
+    intro: Share your automation content with others.
+    submit_roles: Submit roles to an existing collection
+    create_collection: Create a new collection
+    upload_collection: Upload a collection to Ansible Galaxy
+  awx:
+    intro: Use AWX for more convenient automation.
+    on_demand_jobs: Execute automation jobs on demand
+    schedule_jobs: Schedule automation jobs
+    create_job_templates: Create AWX job templates
+  executor:
+    intro: Invoke automation jobs from other systems.
+    build_ees: Build execution environment with specific dependencies
+    use_ees: Use execution environments with AWX jobs
+# Actions for developer journeys
+developer:
+  title: Developer resources
+  intro: Extend automation with custom Ansible modules, add functionality to existing modules, or fix bugs to improve existing code.
+  milestone:
+    start: Start writing code
+    contribute: Contribute code to an Ansible project
+    test: Test plugins and modules
+    create_collection: Create new collections
+  start:
+    intro: Ready to start writing code for Ansible? Follow these steps to get started.
+    setup: Set up your development environment
+    conduct: Review the Ansible contributor guidelines
+    learn: Understand the Ansible architecture
+    code: Write custom modules or plugins
+  contribute:
+    intro: Contribute your code to an Ansible project or collection.
+    checklist: Contribute your module to an existing collection
+    lifecycle: Review the lifecycle of an Ansible module or plugin
+    review: Review issues and PRs in an Ansible project
+    fix: Fix issues and implement new features in an Ansible project, collection, or module
+  test:
+    intro: Test Ansible to help fix bugs and enforce coding standards and requirements.
+    learn: Understand testing in Ansible
+    run: Run sanity tests
+    integration: Write integration tests
+    unit: Write unit tests
+  create_collection:
+    intro: Create a new collection that distributes Ansible content for specific use cases.
+    skeleton: Set things up with the collection skeleton
+    test: Test your collection for code quality
+    distribute: Publish your collection on a distribution server
+    gh_actions: Use GitHub actions to set up testing workflows
+    troubleshoot: Troubleshoot collections with ansible-navigator
+    request_inclusion: Request a collection be added to the Ansible package
+# Actions for community maintainer journeys
+maintainer:
+  title: Ansible community maintainers
+  intro: Community maintainers are trusted contributors who oversee project lifecycle and overall health.
+  milestone:
+    learn: Learn about community maintainer responsibilities
+    build_community: Expand community around a collection
+    collection_inclusion: Get collections included in the Ansible package
+    participate: Participate in cross-project governance
+  learn:
+    intro: Interested in becoming a community maintainer? Find out what's involved.
+    guidelines: Review community maintainer responsibilities
+    backports: Backport merged pull requests to stable branches
+    release: Regularly release stable versions
+    documentation: Look after collection documentation
+  build_community:
+    intro: Community maintainers play a special role to enable and encourage contributors.
+    communication: Join or start a community discussion
+    contributor_paths: Understand Ansible contributor paths
+    encourage: Attract and mentor new contributors
+  collection_inclusion:
+    intro: Satisfy requirements to get collections included in the Ansible package.
+    process: Understand the inclusion process
+    review: Go through inclusion review cycles
+  participate:
+    intro: Get involved in higher-level decision processes that guide the broader community.
+    join: Join the Ansible steering committee
+# Ansible core
+core:
+  title: Ansible Core
+  intro: Core includes the Ansible language and runtime, a set of command-line tools, and a framework for extending automation with collections.
+# Ansible ecosystem
+ecosystem:
+  title: Ansible Ecosystem
+  intro: Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.
+# Ansible community
+community:
+  title: Join the Ansible community
+  intro: Open-source and collaboration are at the heart of the Ansible community, helping more people experience the power of automation and work better and faster together.
+  collaborate:
+    title: Collaborate with the community
+    fork: Fork the Ansible repository
+    ecosystem: Find an Ansible project
+    help: Explore other ways you can help
+  discuss:
+    title: Participate in community discussions
+    email: Get in touch by email
+    chat: Find us on Matrix
+    irc: Use the IRC bridge on Libera Chat
+  join:
+    title: Get involved
+    conduct: Read the code of conduct
+    working_groups: Take part in a working group
+    public_meetings: Come to a public meeting
+  subscribe:
+    title: Follow Ansible community news and announcements
+    bullhorn: Subscribe to the Bullhorn
+    mailing_lists: Subscribe to an Ansible community mailing list
+# Automation platform
+platform:
+  title: Red Hat Ansible Automation Platform
+  intro: Ansible Automation Platform centralizes automation infrastructure, adds enterprise-grade capabilities, and provides supported collections.
+  access:
+    title: Ansible Automation Platform
+    text: Red Hat provides documentation for Automation Platform including installation, Automation Hub, Services Catalog, and Insights.
+  controller:
+    quickstart:
+      title: Quickstart
+      text: Get Automation Controller up and running.
+    release_notes:
+      title: Release notes
+      text: View the changes made since the last release of Ansible Automation Controller.
+    upgrade_migration:
+      title: Upgrade and migration
+      text: Find out how to upgrade Ansible Automation Platform to the latest version.
+    user_guide:
+      title: User guide
+      text: Find the complete guide to using Ansible Automation Controller functionality.
+    administration:
+      title: Administration
+      text: Learn how to perform administration operations on Ansible Automation Controller with scripts, management jobs, and more.
+    api:
+      title: Automation Controller API
+      text: Learn and explore the Automation Controller API.
+    cli:
+      title: Automation Controller CLI
+      text: Learn how to use the command-line client for AWX and Ansible Automation Controller.
+# Labels provide meaningful descriptions of elements for accessibility purposes.
+labels:
+  button_group: Button group that links to Ansible community documentation.
+buttons:
+  access_redhat: Go to access.redhat.com
+  visit_docs: Visit the documentation
+  learn_more: Learn more
+  archive: Visit the archive
+feedback: <i class="fas fa-comments"></i> Got thoughts or feedback on the new documentation landing pages? We want to hear from you! <br /> Join us in the <a href="https://matrix.to/#/#docs:ansible.com" target="_blank">docs channel on Matrix</a> or open a <a href="https://github.com/ansible/docsite/issues" target="_blank">GitHub issue</a> in the docsite repository.
+take_me_back: Restore the old layout.
+# Translations
+translations:
+  core_ja:
+    title: 日本語ドキュメント (Japanese)
+    text: Access Japanese translations for Ansible Core documentation.
+    v_2_14: ansible-core ドキュメント 2.14
+    v_2_13: ansible-core ドキュメント 2.13
+    v_2_12: ansible-core ドキュメント 2.12
+    v_2_11: ansible-core ドキュメント 2.11
+    v_2_9: Ansible ドキュメント 2.9
+  tower_ko:
+    title: 한국어 문서 (Korean)
+    text: Access Korean translations for Automation Controller documentation.
+    quickstart: 퀵스타트 가이드
+    release_notes: 릴리스 노트
+    api: 가이드
+    administration: 관리 가이드
+    userguide: 사용자 가이드
+    upgrade: 업그레이드 마이그레이션 가이드
+  tower_ja:
+    title: 日本語ドキュメント (Japanese)
+    text: Access Japanese translations for Automation Controller documentation.
+    quickstart: クイック設定ガイド
+    release_notes: リリースノート
+    api: ガイド
+    administration: 管理ガイド
+    userguide: ユーザーガイド
+    upgrade: のアップグレードおよび移行ガイド
+    quickinstall: インストールガイド
+    installandreference: インストールおよびリファレンスガイド
+  tower_zh:
+    title: 中文文档 (Simplified Chinese)
+    text: Access simplified Chinese translations for Automation Controller documentation.
+    quickstart: 快速入门指南
+    release_notes: 发行注记
+    api: 指南
+    administration: 管理指南
+    userguide: 用户指南
+    upgrade: 升级和迁移指南
+    quickinstall: 快速安装指南
+    installandreference: 安装和参考指南
+# Archive pages
+archive:
+  community:
+    title: Ansible community documentation archive
+    intro: Archive page for the Ansible community documentation that provides older versions of content.
+    v_2_6: Ansible community documentation for version 2.6
+    v_2_5: Ansible community documentation for version 2.5
+    v_2_4: Ansible community documentation for version 2.4
+    v_2_3: Ansible community documentation for version 2.3
+  platform:
+    title: Automation Controller documentation archive
+    intro: Archive page for the Automation Controller documentation that provides older versions of content.
+    v_4_2_1: Automation Controller version 4.2.1 (Supported)
+    v_4_2_0: Automation Controller version 4.2.0 (Supported)
+    v_4_1_4: Automation Controller version 4.1.4 (Supported)
+    v_4_1_3: Automation Controller version 4.1.3 (Supported)
+    v_4_1_2: Automation Controller version 4.1.2 (Supported)
+    v_4_1_1: Automation Controller version 4.1.1 (Supported)
+    v_4_1_0: Automation Controller version 4.1.0 (Supported)
+    v_4_0_1: Automation Controller version 4.0.1 (End of Maintenance Support - EOL)
+    v_4_0_0: Automation Controller version 4.0.0 (End of Maintenance Support - EOL)
+    v_3_8_6: Automation Tower version 3.8.6 (Supported)
+    v_3_8_5: Automation Tower version 3.8.5 (Supported)
+    v_3_8_4: Automation Tower version 3.8.4 (Supported)
+    v_3_8_3: Automation Tower version 3.8.3 (Supported)
+    v_3_8_2: Automation Tower version 3.8.2 (Supported)
+    v_3_8_1: Automation Tower version 3.8.1 (Supported)
+    v_3_8_0: Automation Tower version 3.8.0 (Supported)
+    v_3_7_5: Automation Tower version 3.7.5 (End of Maintenance Support - EOL)
+    v_3_7_4: Automation Tower version 3.7.4 (End of Maintenance Support - EOL)
+    v_3_7_3: Automation Tower version 3.7.3 (End of Maintenance Support - EOL)
+    v_3_7_2: Automation Tower version 3.7.2 (End of Maintenance Support - EOL)
+    v_3_7_1: Automation Tower version 3.7.1 (End of Maintenance Support - EOL)
+    v_3_7_0: Automation Tower version 3.7.0 (End of Maintenance Support - EOL)
+    v_3_6_7: Automation Tower version 3.6.7 (End of Maintenance Support - EOL)
+    v_3_6_6: Automation Tower version 3.6.6 (End of Maintenance Support - EOL)
+    v_3_6_5: Automation Tower version 3.6.5 (End of Maintenance Support - EOL)
+    v_3_6_4: Automation Tower version 3.6.4 (End of Maintenance Support - EOL)
+    v_3_6_3: Automation Tower version 3.6.3 (End of Maintenance Support - EOL)
+    v_3_6_2: Automation Tower version 3.6.2 (End of Maintenance Support - EOL)
+    v_3_6_1: Automation Tower version 3.6.1 (End of Maintenance Support - EOL)
+    v_3_6_0: Automation Tower version 3.6.0 (End of Maintenance Support - EOL)
+    v_3_5_6: Automation Tower version 3.5.6 (End of Maintenance Support - EOL)
+    v_3_5_5: Automation Tower version 3.5.5 (End of Maintenance Support - EOL)
+    v_3_5_4: Automation Tower version 3.5.4 (End of Maintenance Support - EOL)
+    v_3_5_3: Automation Tower version 3.5.3 (End of Maintenance Support - EOL)
+    v_3_5_2: Automation Tower version 3.5.2 (End of Maintenance Support - EOL)
+    v_3_5_1: Automation Tower version 3.5.1 (End of Maintenance Support - EOL)
+    v_3_5_0: Automation Tower version 3.5.0 (End of Maintenance Support - EOL)
+    v_3_4_5: Automation Tower version 3.4.5 (End of Maintenance Support - EOL)
+    v_3_4_4: Automation Tower version 3.4.4 (End of Maintenance Support - EOL)
+    v_3_4_3: Automation Tower version 3.4.3 (End of Maintenance Support - EOL)
+    v_3_4_2: Automation Tower version 3.4.2 (End of Maintenance Support - EOL)
+    v_3_4_1: Automation Tower version 3.4.1 (End of Maintenance Support - EOL)
+    v_3_4_0: Automation Tower version 3.4.0 (End of Maintenance Support - EOL)
+    v_3_3_7: Automation Tower version 3.3.7 (End of Maintenance Support - EOL)
+    v_3_3_6: Automation Tower version 3.3.6 (End of Maintenance Support - EOL)
+    v_3_3_5: Automation Tower version 3.3.5 (End of Maintenance Support - EOL)
+    v_3_3_4: Automation Tower version 3.3.4 (End of Maintenance Support - EOL)
+    v_3_3_2: Automation Tower version 3.3.2 (End of Maintenance Support - EOL)
+    v_3_3_1: Automation Tower version 3.3.1 (End of Maintenance Support - EOL)
+    v_3_3_0: Automation Tower version 3.3.0 (End of Maintenance Support - EOL)
+    v_3_2_8: Automation Tower version 3.2.8 (End of Maintenance Support - EOL)
+    v_3_2_7: Automation Tower version 3.2.7 (End of Maintenance Support - EOL)
+    v_3_2_6: Automation Tower version 3.2.6 (End of Maintenance Support - EOL)
+    v_3_2_5: Automation Tower version 3.2.5 (End of Maintenance Support - EOL)
+    v_3_2_4: Automation Tower version 3.2.4 (End of Maintenance Support - EOL)
+    v_3_2_3: Automation Tower version 3.2.3 (End of Maintenance Support - EOL)
+    v_3_2_2: Automation Tower version 3.2.2 (End of Maintenance Support - EOL)
+    v_3_2_1: Automation Tower version 3.2.1 (End of Maintenance Support - EOL)
+    v_3_2_0: Automation Tower version 3.2.0 (End of Maintenance Support - EOL)
+    v_3_1_8: Automation Tower version 3.1.8 (End of Maintenance Support - EOL)
+    v_3_1_7: Automation Tower version 3.1.7 (End of Maintenance Support - EOL)
+    v_3_1_6: Automation Tower version 3.1.6 (End of Maintenance Support - EOL)
+    v_3_1_5: Automation Tower version 3.1.5 (End of Maintenance Support - EOL)
+    v_3_1_4: Automation Tower version 3.1.4 (End of Maintenance Support - EOL)
+    v_3_1_3: Automation Tower version 3.1.3 (End of Maintenance Support - EOL)
+    v_3_1_0: Automation Tower version 3.1.0 (End of Maintenance Support - EOL)
+    v_3_0_4: Automation Tower version 3.0.4 (End of Maintenance Support - EOL)
+    v_3_0_3: Automation Tower version 3.0.3 (End of Maintenance Support - EOL)
+    v_3_0_2: Automation Tower version 3.0.2 (End of Maintenance Support - EOL)
+    v_3_0_1: Automation Tower version 3.0.1 (End of Maintenance Support - EOL)
+    v_3_0_0: Automation Tower version 3.0 (End of Maintenance Support - EOL)
+    v_2_4_5: Automation Tower version 2.4.5 (End of Maintenance Support - EOL)
+    v_2_4_4: Automation Tower version 2.4.4 (End of Maintenance Support - EOL)
+    v_2_4_3: Automation Tower version 2.4.3 (End of Maintenance Support - EOL)
+    v_2_4_0: Automation Tower version 2.4.0 (End of Maintenance Support - EOL)
+    v_2_3_1: Automation Tower version 2.3.1 (End of Maintenance Support - EOL)
+    v_2_3_0: Automation Tower version 2.3.0 (End of Maintenance Support - EOL)
+    v_2_2_2: Automation Tower version 2.2.2 (End of Maintenance Support - EOL)
+    v_2_2_1: Automation Tower version 2.2.1 (End of Maintenance Support - EOL)
+    v_2_2_0: Automation Tower version 2.2.0 (End of Maintenance Support - EOL)
+    v_2_1_6: Automation Tower versions 1.2.2 through 2.1.6 (End of Maintenance Support - EOL)

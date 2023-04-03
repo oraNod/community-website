@@ -1,0 +1,13 @@
+.docbar {
+    background: $navy;
+    width: 100%;
+	.nav-item {
+        padding-right: 4px;
+        padding-left: 4px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+	}
+    .nav-link {
+        text-align: right;
+    }
+}
