@@ -1,0 +1,8 @@
+cache
+.doit.db
+__pycache__
+output
+# VS Code stuff
+.vscode
+# Python virtual environments
+venv
