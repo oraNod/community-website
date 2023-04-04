@@ -6,15 +6,71 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://example.com/galleries/rss.xml</loc>
-  <lastmod>2023-04-03T16:12:00Z</lastmod>
+  <loc>https://ansible.community/authors/ansible-community-et-al.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/rss.xml</loc>
-  <lastmod>2023-04-03T16:12:00Z</lastmod>
+  <loc>https://ansible.community/authors/roberto-alsina.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/sitemap.xml</loc>
-  <lastmod>2023-04-03T16:12:00Z</lastmod>
+  <loc>https://ansible.community/categories/ansible.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/blog.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/cat_example.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/cat_nikola-blog.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/community.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/demo.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/development.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/example.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/nikola.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/python.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/categories/website.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/galleries/demo/rss.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/galleries/rss.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/rss.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://ansible.community/sitemap.xml</loc>
+  <lastmod>2023-04-04T18:10:00Z</lastmod>
  </sitemap>
 </sitemapindex>
