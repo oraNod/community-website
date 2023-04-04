@@ -1,4 +1,0 @@
-Sitemap: https://ansible.community/sitemapindex.xml
-
-User-Agent: *
-Host: ansible.community
