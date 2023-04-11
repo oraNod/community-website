@@ -1,0 +1,35 @@
+.clipboard {
+	font-size: large;
+	font-family: $redhat-display;
+	text-align: left;
+	pre {
+		background-color: $pool;
+		color: $black;
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		position: relative;
+		width: 75%;
+		text-align: left;
+		display: inline-block;
+	}
+	code {
+		background: none;
+	}
+	.btn {
+		background-color: $pool;
+		border: 0px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		cursor: pointer;
+		&:hover {
+			background-color: $pool;
+		}
+	}
+	.fa-clipboard {
+		color: $black;
+        background-color: $pool;
+	}
+}
