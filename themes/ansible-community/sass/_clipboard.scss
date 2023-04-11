@@ -5,31 +5,27 @@
 	pre {
 		background-color: $pool;
 		color: $black;
-		padding-top: 10px;
+		display: inline-block;
+		padding-top: 20px;
 		padding-left: 10px;
 		padding-bottom: 0px;
-		margin-bottom: 0px;
 		position: relative;
-		width: 75%;
+		width: 100%;
 		text-align: left;
-		display: inline-block;
 	}
 	code {
 		background: none;
 	}
 	.btn {
-		background-color: $pool;
+		background-color: transparent;
 		border: 0px;
 		position: absolute;
-		top: 0px;
+		top: 10px;
 		right: 0px;
 		cursor: pointer;
-		&:hover {
-			background-color: $pool;
-		}
 	}
-	.fa-clipboard {
-		color: $black;
-        background-color: $pool;
+	.fa-copy {
+        color: $black;
+        background-color: transparent;
 	}
 }
