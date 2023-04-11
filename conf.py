@@ -1409,7 +1409,14 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+try:
+    from nikola.utils import load_data
+    GLOBAL_CONTEXT = {
+    "base": load_data('data/base.yaml')
+    }
+
+except ImportError:
+    GLOBAL_CONTEXT = {}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
