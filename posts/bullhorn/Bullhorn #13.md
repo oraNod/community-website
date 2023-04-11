@@ -1,11 +1,8 @@
 ---
-title: Bullhorn #13
-slug: bullhorn-13
-date: 2020-11-04 00:00:00 UTC00:00
+title: "Bullhorn #13"
+date: 2020-11-04 15:00 UTC
 tags: news
 category: bullhorn
-link: 
-description: 
 type: text
 ---
 
@@ -15,6 +12,8 @@ type: text
 **Issue #13, 2020-11-04**
 
 Welcome to the Bullhorn, our newsletter for the Ansible developer community. If you have any questions or content you’d like to share, please reach out to us at the-bullhorn@redhat.com, or comment on this [GitHub issue](https://github.com/ansible/community/issues/546).
+
+<!-- TEASER_END -->
 
 **KEY DATES**
 
