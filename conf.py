@@ -1412,7 +1412,7 @@ WARN_ABOUT_TAG_METADATA = False
 try:
     from nikola.utils import load_data
     GLOBAL_CONTEXT = {
-    "base": load_data('data/base.yaml')
+    "meta": load_data('data/meta.yaml')
     }
 
 except ImportError:
