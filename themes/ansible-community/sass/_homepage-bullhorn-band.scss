@@ -1,0 +1,19 @@
+.homepage-feature-band {
+  h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .block-image,
+  .block-content {
+    align-self: center;
+
+    .img-md {
+      max-width: 100%;
+    }
+  }
+
+  img {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+  }
+}

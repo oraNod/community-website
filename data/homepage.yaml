@@ -1,3 +1,7 @@
+main: Automation powered by people
+mission: Open-source and collaboration are at the heart of the Ansible community, helping more people experience the power of automation and work better and faster together.
+version: Ansible 7 is now available
+install: pip install ansible
 automation: Agentless automation that is simple, secure, and works everywhere.
 extensible: Extensible framework with collections available for virtually every use case.
 community: Powered by a vibrant open-source community.
