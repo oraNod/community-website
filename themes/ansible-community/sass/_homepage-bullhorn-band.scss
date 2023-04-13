@@ -1,19 +1,35 @@
-.homepage-feature-band {
+.homepage-bullhorn-band {
+  text-align: center;
+  position: relative;
+  background-color: $navy;
+  color: $white;
+  padding: 20px;
   h2 {
+    font-size:2rem;
+  }
+}
+
+.subscribe-description {
+  p span {
+    font-size:0.9rem;
+  }
+}
+
+.subscribe-input {
+  p {
+    font-size:1rem;
+  }
+}
+
+.clear {
+  .button {
+    background-color: $white;
+    border-radius: 8px;
+    width: 120px;
     text-transform: uppercase;
-    font-weight: 600;
-  }
-  .block-image,
-  .block-content {
-    align-self: center;
-
-    .img-md {
-      max-width: 100%;
+    &:hover {
+      background-color: $pool;
+      color: $white;
     }
-  }
-
-  img {
-    margin-top: 2rem;
-    margin-bottom: 6rem;
   }
 }

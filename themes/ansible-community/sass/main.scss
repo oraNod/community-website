@@ -5,6 +5,7 @@
 @import "grid-wrapper";
 @import "homepage-ansible-band";
 @import "homepage-feature-band";
+@import "homepage-bullhorn-band";
 
 body {
   background: $white;
@@ -13,6 +14,7 @@ body {
   font-family: $redhat-text;
   position: relative;
   min-height: 100vh;
+  padding-bottom: 120px;
 }
 h1 {
   font-family: $redhat-display;
