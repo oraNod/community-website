@@ -10,16 +10,16 @@
         target="_blank"
         novalidate>
         <div id="mc_embed_signup_scroll">
-          <h2>Subscribe to the Bullhorn</h2>
+          <h2>{{ homepage.bullhorn.subscribe }}</h2>
           <div class="subscribe-description">
-            <p>Sign up to the Bullhorn to get the latest news and updates from the Ansible community.<br /><span>You can easily opt-out of a subscription at any time.</span></p>
+            <p>{{ homepage.bullhorn.signup }}<br /><span>{{ homepage.bullhorn.optout }}</span></p>
           </div>
           <div class="subscribe-input">
-            <label for="mce-EMAIL">Email address &nbsp;</label>
+            <label for="mce-EMAIL">{{ homepage.bullhorn.label }} &nbsp;</label>
             <input
               type="email"
               value=""
-              placeholder="Subscribe me to Ansible community news and updates"
+              placeholder="{{ homepage.bullhorn.placeholder }}"
               name="EMAIL"
               class="required email"
               id="mce-EMAIL"
@@ -50,10 +50,11 @@
           <div class="clear">
             <input
               type="submit"
-              value="Subscribe"
+              value="{{ homepage.bullhorn.button }}"
               name="subscribe"
               id="mc-embedded-subscribe"
-              class="button"/>
+              class="button"
+              style="font-size: 1rem; font-weight: bold;" />
           </div>
         </div>
       </form>
