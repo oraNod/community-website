@@ -1,13 +1,13 @@
 main: Automation powered by people
-mission: Open-source and collaboration are at the heart of the Ansible community, helping more people experience the power of automation and work better and faster together.
+mission: Ansible is an open source, command-line IT automation software application written in Python. It can configure most operating systems, deploy software, and orchestrate advanced workflows to support application deployment, system updates, and more.
 version: Ansible 7 is now available
 install: pip install ansible
 automation: Agentless automation that is simple, secure, and works everywhere.
 extensible: Extensible framework with collections available for virtually every use case.
-community: Powered by a vibrant open-source community.
+community: Powered by a large, vibrant open-source community.
 bullhorn:
   subscribe: Subscribe to the Bullhorn
-  signup: Sign up to the Bullhorn to get the latest news and updates from the Ansible community.
+  signup: The Bullhorn is the Ansible Community Newsletter. Released weekly, you can get the latest news and updates from the Ansible community right in your inbox.
   optout: You can easily opt-out of a subscription at any time.
   label: Email address
   placeholder: Sign me up for Ansible community news
