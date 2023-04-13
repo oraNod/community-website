@@ -23,13 +23,17 @@
 
 .clear {
   .button {
-    background-color: $white;
-    border-radius: 8px;
-    width: 120px;
-    text-transform: uppercase;
+    background-color: $pool;
+    color: $white;
+    border: 0;
+    border-radius: 2px;
+    padding: 8px;
+    width: 15%;
+    text-transform: none;
+    text-align: center;
     &:hover {
       background-color: $pool;
-      color: $white;
+      color: $black;
     }
   }
 }

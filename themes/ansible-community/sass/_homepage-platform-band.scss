@@ -8,5 +8,9 @@
     a {
         background-color: $red-hat-red;
         color: $white;
+        &:hover {
+          background-color: $red-hat-red;
+          color: $black;
+        }
     }
 }
