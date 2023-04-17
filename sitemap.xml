@@ -6,159 +6,47 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://ansible.community/2012/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <loc>https://ansible.community/</loc>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/2023/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/archive.html</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/authors/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/authors/ansible-community-et-al/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/authors/roberto-alsina/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/blog/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/blog/example-ansible-blog-post/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/blog/welcome-to-nikola/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/categories/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/categories/ansible/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/categories/blog/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/categories/cat_example/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/categories/cat_nikola-blog/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/categories/community/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/categories/demo/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/categories/development/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/categories/example/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/categories/nikola/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/categories/python/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://ansible.community/categories/website/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/galleries/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/galleries/demo/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/listings/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/listings/hello.py.html</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/about-nikola/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/bootstrap-demo/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/charts/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/creating-a-theme/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/extending/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/handbook/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/internals/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/listings-demo/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/path-handlers/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/quickref/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/quickstart/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/social_buttons/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://ansible.community/pages/theming/</loc>
-  <lastmod>2023-04-04T20:32:00Z</lastmod>
+  <lastmod>2023-04-17T16:46:00Z</lastmod>
  </url>
 </urlset>
