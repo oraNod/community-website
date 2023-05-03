@@ -22,7 +22,7 @@ jobs:
     - name: Change sass binary in conf.py
       run: sed -i "s|SASS_COMPILER = 'sass'|SASS_COMPILER = 'sassc'|g" conf.py
 
-    - name: Test site build (via Nikola action)
+    - name: Build the site with Nikola
       uses: getnikola/nikola-action@v8
       with:
         dry_run: true
@@ -32,5 +32,5 @@ jobs:
       uses: rossjrw/pr-preview-action@v1
       with:
         source-dir: ./output/
-        umbrella-dir: previews
+        umbrella-dir: previews/
         custom-url: oranod.github.io/community-website

@@ -4,6 +4,9 @@ on:
     branches:
     - main
 
+permissions:
+  contents: write
+
 jobs:
   nikola_build:
     runs-on: ubuntu-latest
@@ -16,8 +19,14 @@ jobs:
     - name: Change sass binary in conf.py
       run: sed -i "s|SASS_COMPILER = 'sass'|SASS_COMPILER = 'sassc'|g" conf.py
 
-    - name: Deploy site (via Nikola action)
+    - name: Build the site with Nikola
       uses: getnikola/nikola-action@v8
       with:
-        dry_run: false
+        dry_run: true
         apt_install: sassc
+
+    - name: Deploy to gh-pages 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: ./output/
+        clean-exclude: previews/
