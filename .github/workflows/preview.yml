@@ -33,4 +33,4 @@ jobs:
       with:
         source-dir: ./output/
         umbrella-dir: previews
-        custom-url: oranod.github.io
+        custom-url: oranod.github.io/community-website
