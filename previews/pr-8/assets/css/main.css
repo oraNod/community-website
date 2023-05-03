@@ -1,0 +1,244 @@
+.clipboard {
+  font-size: large;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-align: left; }
+  .clipboard pre {
+    background-color: #5cbec1;
+    color: #000000;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    position: relative;
+    width: 100%;
+    text-align: left; }
+  .clipboard code {
+    background: none; }
+  .clipboard .btn {
+    background-color: transparent;
+    border: 0px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    cursor: pointer;
+    padding: 0.625rem 2rem; }
+  .clipboard .fa-copy {
+    color: #000000;
+    background-color: transparent; }
+
+.grid-wrapper,
+.component-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 4em;
+  clear: both; }
+
+.width-1-12 {
+  grid-column: span 1; }
+
+.width-2-12 {
+  grid-column: span 2; }
+
+.width-3-12 {
+  grid-column: span 3; }
+
+.width-4-12 {
+  grid-column: span 4; }
+
+.width-5-12 {
+  grid-column: span 5; }
+
+.width-6-12 {
+  grid-column: span 6; }
+
+.width-7-12 {
+  grid-column: span 7; }
+
+.width-8-12 {
+  grid-column: span 8; }
+
+.width-9-12 {
+  grid-column: span 9; }
+
+.width-10-12 {
+  grid-column: span 10; }
+
+.width-11-12 {
+  grid-column: span 11; }
+
+.width-12-12 {
+  grid-column: span 12; }
+
+@media (max-width: 48em) {
+  .width-1-12-m {
+    grid-column: span 1; } }
+
+@media (max-width: 48em) {
+  .width-2-12-m {
+    grid-column: span 2; } }
+
+@media (max-width: 48em) {
+  .width-3-12-m {
+    grid-column: span 3; } }
+
+@media (max-width: 48em) {
+  .width-4-12-m {
+    grid-column: span 4; } }
+
+@media (max-width: 48em) {
+  .width-5-12-m {
+    grid-column: span 5; } }
+
+@media (max-width: 48em) {
+  .width-6-12-m {
+    grid-column: span 6; } }
+
+@media (max-width: 48em) {
+  .width-7-12-m {
+    grid-column: span 7; } }
+
+@media (max-width: 48em) {
+  .width-8-12-m {
+    grid-column: span 8; } }
+
+@media (max-width: 48em) {
+  .width-9-12-m {
+    grid-column: span 9; } }
+
+@media (max-width: 48em) {
+  .width-10-12-m {
+    grid-column: span 10; } }
+
+@media (max-width: 48em) {
+  .width-11-12-m {
+    grid-column: span 11; } }
+
+@media (max-width: 48em) {
+  .width-12-12-m {
+    grid-column: span 12; } }
+
+.navbar-padding {
+  padding: 0; }
+
+.nav-link-color {
+  color: #ffffff !important; }
+  .nav-link-color:hover {
+    color: #CCCCCC !important; }
+
+.nav-toggle-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; }
+
+.dropdown-menu-border {
+  border: 0 solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px; }
+  .dropdown-menu-border a:active {
+    background-color: #EE0000 !important; }
+
+.active {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  background-color: #EE0000 !important; }
+
+.homepage-ansible-band {
+  padding-bottom: 2rem;
+  margin: 6rem auto; }
+
+.homepage-feature-band {
+  background-color: #ffffff;
+  padding-bottom: 2rem;
+  margin: 6rem auto; }
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  color: #000000;
+  align-items: center;
+  padding-bottom: 0px; }
+  .box img {
+    width: 75px;
+    position: absolute; }
+  .box p {
+    text-align: center;
+    margin-left: 75px; }
+
+.feature {
+  padding-bottom: 10px; }
+
+.homepage-bullhorn-band {
+  text-align: center;
+  position: relative;
+  background-color: #102441;
+  color: #ffffff;
+  padding: 20px; }
+  .homepage-bullhorn-band h2 {
+    font-size: 2rem; }
+
+.subscribe-description p span {
+  font-size: 0.9rem; }
+
+.subscribe-input p {
+  font-size: 1rem; }
+
+.clear .button {
+  background-color: #5cbec1;
+  color: #ffffff;
+  border: 0;
+  border-radius: 2px;
+  padding: 8px;
+  width: 15%;
+  text-transform: none;
+  text-align: center; }
+  .clear .button:hover {
+    background-color: #5cbec1;
+    color: #000000; }
+
+.homepage-platform-band {
+  padding-bottom: 2rem;
+  margin: 6rem auto;
+  text-align: left; }
+
+.learn-more a {
+  background-color: #EE0000;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0.625rem 2rem; }
+  .learn-more a:hover {
+    background-color: #EE0000;
+    color: #000000; }
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-weight: normal;
+  font-family: RedHatText, "Red Hat Text", Overpass, "Helvetica Neue", Arial, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 60px; }
+
+h1 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.5rem;
+  text-transform: none; }
+
+h2 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.25rem;
+  text-transform: none; }
+
+h3 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-transform: none; }
+
+h4 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  text-transform: none; }
+
+h5 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-transform: none; }
+
+h6 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif; }
