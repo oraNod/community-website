@@ -1,47 +1,3 @@
-nav {
-  background: #102441; }
-  nav .navbar-toggler {
-    color: #ffffff;
-    outline: none; }
-  nav .navbar-toggler .icon-bar {
-    display: block;
-    width: 1.375rem;
-    height: 0.125rem;
-    border-radius: 1px;
-    background-color: #ffffff;
-    transition: all 300ms ease-in-out;
-    transform: rotate(0);
-    opacity: 1;
-    margin-top: 0.3125rem; }
-  nav .navbar-toggler .icon-bar.top {
-    margin-top: 0.625rem;
-    transform: rotate(45deg); }
-  nav .navbar-toggler .icon-bar.center {
-    opacity: 0; }
-  nav .navbar-toggler .icon-bar.bottom {
-    margin-top: -0.5rem;
-    transform: rotate(-45deg); }
-  nav .navbar-toggler.collapsed .icon-bar {
-    transform: rotate(0);
-    opacity: 1;
-    margin-top: 0.5rem; }
-  nav .navbar-brand {
-    color: #ffffff;
-    font-size: 1.2rem;
-    padding-right: 4px; }
-    nav .navbar-brand:hover {
-      color: #5cbec1; }
-  nav .nav-item {
-    padding: 1px 4px; }
-  nav .nav-link {
-    color: #ffffff;
-    font-size: 1rem; }
-    nav .nav-link:hover {
-      color: #5cbec1; }
-  @media screen and (max-width: 990px) {
-    nav .navbar-nav .nav-link {
-      padding-right: 0.75rem;
-      padding-left: 0.75rem; } }
 .clipboard {
   font-size: large;
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
@@ -64,7 +20,8 @@ nav {
     position: absolute;
     top: 10px;
     right: 0px;
-    cursor: pointer; }
+    cursor: pointer;
+    padding: 0.625rem 2rem; }
   .clipboard .fa-copy {
     color: #000000;
     background-color: transparent; }
@@ -160,6 +117,28 @@ nav {
   .width-12-12-m {
     grid-column: span 12; } }
 
+.navbar-padding {
+  padding: 0; }
+
+.nav-link-color {
+  color: #ffffff !important; }
+  .nav-link-color:hover {
+    color: #CCCCCC !important; }
+
+.nav-toggle-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; }
+
+.dropdown-menu-border {
+  border: 0 solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px; }
+  .dropdown-menu-border a:active {
+    background-color: #EE0000 !important; }
+
+.active {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  background-color: #EE0000 !important; }
+
 .homepage-ansible-band {
   padding-bottom: 2rem;
   margin: 6rem auto; }
@@ -221,7 +200,9 @@ nav {
 
 .learn-more a {
   background-color: #EE0000;
-  color: #ffffff; }
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0.625rem 2rem; }
   .learn-more a:hover {
     background-color: #EE0000;
     color: #000000; }
