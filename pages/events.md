@@ -4,7 +4,7 @@ slug: events
 type: text
 ---
 
-Ansible events! Things to find us at! Check out the [Ansible Meetup page](https://www.meetup.com/topics/ansible/all/) for our existing meetups, or the [Meetup Organizers Toolkit](https://github.com/ansible-community/meetup/blob/main/meetup_toolkit.md) for starting your own.
+Ansible events! Places where you can find us! Check out the [Ansible Meetup page](https://www.meetup.com/topics/ansible/all/) for our existing meetups, or the [Meetup Organizers Toolkit](https://github.com/ansible-community/meetup/blob/main/meetup_toolkit.md) for starting your own.
 
 ## [Ansible Community Day @ Red Hat Summit](https://hackmd.io/0uT8IXjJTH2ZBB28jAQ1fA)
 
