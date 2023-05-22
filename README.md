@@ -26,14 +26,9 @@ Configuration file for the site is ``conf.py``.
 
 ### Requirements
 
-- Visit [Nikola installation documentation](https://getnikola.com/getting-started.html#install).
-- Install `sass` to compile scss files to css.
+    pip install --upgrade -r ./requirements.txt
 
-You can install `sass` as described in the [Sass install docs](https://sass-lang.com/install).
-If you are a Fedora user, you can install and use `sassc` as follows:
-
-- `sudo dnf install sassc`
-- `sudo ln -s /usr/bin/sassc /usr/bin/sass` (Nikola expects a sass binary.)
+Visit [Nikola installation documentation](https://getnikola.com/getting-started.html#install) for more details about the site generator.
 
 ### Building and viewing the site
 
