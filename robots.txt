@@ -1,0 +1,5 @@
+Sitemap: https://ansible-community-website.readthedocs.io/sitemapindex.xml
+
+User-Agent: *
+Disallow: *
+Host: ansible-community-website.readthedocs.io
