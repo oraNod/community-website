@@ -1,7 +1,7 @@
 ---
-slug: awx
-title: Ansible AWX
-description: Find out about the AWX project.
+slug: faq
+title: Frequently asked questions
+description: Find answers to many frequency asked questions.
 type: text
 ---
 <style>
