@@ -1,0 +1,172 @@
+awx:
+  logo: /images/project-logos/awx.svg
+  alt: AWX project logo
+  icon: /images/project-logos/awx-icon.svg
+  icon_alt: AWX project logo
+  long: Ansible AWX
+  short: AWX
+aap:
+  icon_alt: Red Hat icon
+  long: Red Hat Ansible Automation Platform
+  short: Ansible Automation Platform
+title:
+  awx: Ansible AWX
+  description: >-
+    AWX is an open-source project that offers an API for running and monitoring automation
+    tasks across small-scale IT infrastructure and development environments.
+community:
+  highlights:
+    open-source:
+      icon: fa-brands fa-osi
+      url: https://github.com/ansible/awx?tab=License-1-ov-file
+      link_text: Open-source license
+    stars:
+      icon: fa fa-star
+      url: https://github.com/ansible/awx/stargazers
+      link_text: 13.7k stars on GitHub
+    forks:
+      icon: fa fa-code-fork
+      url: https://github.com/ansible/awx/forks
+      link_text: 3.4k forks
+    contributors:
+      icon: fa-solid fa-code-pull-request
+      url: https://github.com/ansible/awx/graphs/contributors
+      link_text: 480+ contributors
+journeys:
+  milestone_one:
+    title: Getting started with AWX
+    steps:
+      step_one:
+        text: Learn about AWX
+        link: https://ansible.com
+      step_two:
+        text: Learn about AWX Operator
+        link: https://ansible.com
+      step_three:
+        text: Ask AWX questions on the Ansible Forum
+        link: https://forum.ansible.com/tags/c/help/6/none/awx
+  milestone_two:
+    title: Evaluating AWX
+    steps:
+      step_one:
+        text: Install with AWX Operator
+        link: https://ansible.com
+      step_two:
+        text: Complete the AWX Quickstart
+        link: https://ansible.com
+      step_three:
+        text: baz
+        link: https://ansible.com
+  milestone_three:
+    title: Automating with AWX
+    steps:
+      step_one:
+        text: Provision users
+        link: https://ansible.com
+      step_two:
+        text: Build an execution environment
+        link: https://ansible.com
+      step_three:
+        text: Create an automation job
+        link: https://ansible.com
+  milestone_four:
+    title: Improving AWX performance
+    steps:
+      step_one:
+        text: Schedule jobs and create workflows
+        link: https://ansible.com
+      step_two:
+        text: Configure monitoring and capacity planning
+        link: https://ansible.com
+      step_three:
+        text: Improve database usage
+        link: https://ansible.com
+resources:
+  title: Community resources
+  intro: Learn and share with a vibrant community of contributors and users.
+  resources:
+    forum:
+      title: Join us on the Ansible Forum
+      icon: fa-brands fa-discourse
+      links:
+        tags:
+          text: Get help with AWX
+          link: https://forum.ansible.com/tags/c/help/6/none/awx
+        discussion:
+          text: Join project discussions
+          link: https://forum.ansible.com/tags/c/project/7/awx
+        event:
+          text: Come along to our community meeting
+          link: https://forum.ansible.com/t/awx-community-meeting/120
+    docs:
+      title: Read the documentation
+      icon: fa-solid fa-book
+      links:
+        awx:
+          text: Ansible AWX
+          link: https://ansible.readthedocs.io/projects/awx/en/latest/
+        awx_operator:
+          text: AWX Operator
+          link: https://ansible.readthedocs.io/projects/awx-operator/en/latest/
+    info:
+      title: Find out more about AWX
+      icon: fa-solid fa-info
+      links:
+        awx_readme:
+          text: AWX project README
+          link: https://github.com/ansible/awx/blob/devel/README.md
+        operator_readme:
+          text: AWX Operator project README
+          link: https://github.com/ansible/awx-operator/blob/devel/README.md
+        faq:
+          text: Read frequently asked questions about AWX
+          link: https://www.ansible.com/faq/#2
+migrating:
+  title: Migrating to Red Hat Ansible Automation Platform
+  intro: Using free, unsupported AWX is the right choice for lots of scenarios and a great way to get started with Ansible automation.
+  challenges: >-
+    For larger organizations adopting Ansible more widely, the automation journey can continue from AWX to Ansible Automation Platform.
+    Designed to overcome challenges with security and performance, Ansible Automation Platform offers an integrated solution that can handle the most complex automation use cases.
+  migrating: >-
+    Ansible Automation Platform is built on multiple open-source projects, including AWX and Event-Driven Ansible, and reduces engineering team burden with tested and supported automation capabilities.
+    The following section lists some key things to help you understand when it makes sense to migrate from AWX to Ansible Automation Platform.
+  comparison:
+    support:
+      title: Support
+      icon: /images/icons/support.svg
+      awx: A vibrant community of contributors and users provide help through the Ansible Forum and AWX documentation.
+      aap: Red Hat subscriptions give you 24/7 world-class support as well as access to expert technical content.
+    nodes:
+      title: Production workloads
+      icon: /images/icons/scale.svg
+      awx: AWX offers an API that works best with development environments and automation projects with up to x nodes.
+      aap: Ansible Automation Platform can tackle heavy workloads across a large number of production nodes.
+    tested:
+      title: Security and reliability
+      icon: /images/icons/trusted.svg
+      awx: AWX is frequently released from a fast-moving development branch, dramatically increasing the risk of security vulnerabilities and performance issues.
+      aap: Ansible Automation Platform offers tried and tested software that is security-hardened with performance testing, bug fixes, and standardized practices.
+    platform:
+      title: Integration
+      icon: /images/icons/interoperability.svg
+      awx: Build automation solutions using AWX in combination with other open-source tooling.
+      aap: Get a fully integrated platform built from over 20 open-source projects, including Event-Driven Ansible.
+    collections:
+      title: Collections
+      icon: /images/icons/collections.svg
+      awx: Use community collections.
+      aap: Reliably cover any automation use case with Red Hat certified collections.
+    cloud:
+      title: Cloud deployments
+      icon: /images/icons/cloud-automation.svg
+      awx: Install on Kubernetes via the AWX Operator.
+      aap: Take advantage of full benefits of the cloud with AAP services.
+redhat_aap:
+  compare:
+    text: Find out more about Ansible, AWX, and Red Hat Ansible Automation Platform and make the best choice when deciding on automation tooling for your organization.
+    link_text: Understanding Ansible, AWX, and Ansible Automation Platform
+    link: https://www.redhat.com/en/technologies/management/ansible/compare-awx-vs-ansible-automation-platform
+  controller:
+    text: Visit the Red Hat Automation controller product page and try the interactive lab.
+    link_text: Automation controller product page
+    link: https://www.redhat.com/en/technologies/management/ansible/automation-controller

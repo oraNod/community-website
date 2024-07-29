@@ -1,0 +1,133 @@
+{% extends "base.tmpl" %} {% block content %}
+<div class="grid-wrapper awx-page full-width-band">
+  <div class="width-12-12 width-12-12-m awx-page-title">
+    <img
+      class="awx-logo"
+      src="{{ awx.awx.logo }}"
+      alt="{{ awx.awx.alt }}"
+      width="100"
+      height="100"
+    />
+    <h1>{{ awx.title.awx }}</h1>
+    <p>{{ awx.title.description }}</p>
+  </div>
+  <div class="awx-community width-12-12 width-12-12-m">
+    <div class="awx-community-row">
+      {% for key, item in awx.community.highlights.items() %}
+      <div class="awx-community-highlights">
+        <i class="{{ item.icon }}" aria-hidden="true" />
+        <a href="{{ item.url }}" target="_blank">&nbsp;{{ item.link_text }}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% for key, milestone in awx.journeys.items() %}
+  <div class="awx-journeys width-6-12 width-12-12-m">
+    <div class="awx-milestone">
+      <h3>{{ milestone.title }}</h3>
+      <ul>
+        {% for step_key, step in milestone.steps.items() %}
+        <li>
+          <a href="{{ step.link }}">{{ step.text }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+  <div class="awx-resources width-12-12 width-12-12-m">
+    <h3>{{ awx.resources.title }}</h3>
+    <p>{{ awx.resources.intro }}</p>
+    <div class="awx-resources-row">
+      <div class="awx-angry-spud">
+        <img src="{{ awx.awx.icon }}" alt="{{ awx.awx.icon_alt }}" />
+      </div>
+      {% for key, resource in awx.resources.resources.items() %}
+      <div class="awx-resource">
+        <div class="awx-resource-section">
+          <i class="{{ resource.icon }}" aria-hidden="true" />
+          <h4>{{ resource.title }}</h4>
+        </div>
+        <div class="awx-resource-list">
+          <ul>
+            {% if resource.links %} {% for link_key, link_item in
+            resource.links.items() %}
+            <li>
+              <a href="{{ link_item.link }}" target="_blank">{{
+                link_item.text
+              }}</a>
+            </li>
+            {% endfor %} {% endif %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="awx-migrating width-12-12 width-12-12-m max-width-prose">
+    <div class="awx-migrating-section">
+      <h3>{{ awx.migrating.title }}</h3>
+      <p>{{ awx.migrating.intro }}</p>
+      <p>{{ awx.migrating.challenges }}</p>
+      <p>{{ awx.migrating.migrating }}</p>
+    </div>
+  </div>
+  {% for key, item in awx.migrating.comparison.items() %}
+  <div class="awx-comparison width-6-12 width-12-12-m">
+    <div class="awx-comparison-items">
+      <div class="awx-comparison-section">
+        <h4>{{ item.title }}</h4>
+        <img src="{{ item.icon }}" alt="Section icon" />
+      </div>
+      {% if item.awx %}
+      <div class="awx-comparison-item">
+        <h4>{{ awx.awx.short }}</h4>
+        <p>{{ item.awx }}</p>
+      </div>
+      {% endif %} {% if item.aap %}
+      <div class="awx-comparison-item">
+        <h4>{{ awx.aap.short }}</h4>
+        <p>{{ item.aap }}</p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+  <div class="awx-aap-section width-12-12 width-12-12-m">
+    <div class="awx-aap-row">
+      <div class="awx-aap-logo">
+        <a href="{{ homepage.links.platform.use_cases }}" target="_blank">
+          <img
+            src="/images/platform.svg"
+            alt="{{ homepage.platform.logo_alt }}"
+            width="400"
+            height="120"
+          />
+        </a>
+      </div>
+      <div class="awx-aap-links max-width-prose">
+        <span class="awx-app-link">
+          <p>{{ awx.redhat_aap.compare.text }}</p>
+          <a
+            class="homepage-anchor platform-anchor"
+            href="{{ awx.redhat_aap.compare.link }}"
+            role="button"
+            target="_blank"
+            >{{ awx.redhat_aap.compare.link_text }}</a
+          ></span
+        >
+        <span class="awx-app-link">
+          <p>{{ awx.redhat_aap.controller.text }}</p>
+          <a
+            class="homepage-anchor platform-anchor"
+            href="{{ awx.redhat_aap.controller.link }}"
+            role="button"
+            target="_blank"
+            >{{ awx.redhat_aap.controller.link_text }}</a
+          ></span
+        >
+      </div>
+    </div>
+  </div>
+  {% endblock content %}
+</div>

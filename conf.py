@@ -1439,6 +1439,7 @@ try:
     "ecosystem": load_data('data/ecosystem.yaml'),
     "homepage": load_data('data/homepage.yaml'),
     "training": load_data('data/training.yaml'),
+    "awx": load_data('data/awx.yaml'),
     }
 
 except ImportError:
