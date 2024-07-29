@@ -9,6 +9,7 @@ aap:
   icon_alt: Red Hat icon
   long: Red Hat Ansible Automation Platform
   short: Ansible Automation Platform
+  controller: Ansible Automation Controller
 title:
   awx: Ansible AWX
   description: >-
@@ -122,14 +123,14 @@ resources:
           text: Read frequently asked questions about AWX
           link: https://www.ansible.com/faq/#2
 migrating:
-  title: Migrating to Red Hat Ansible Automation Platform
-  intro: Using free, unsupported AWX is the right choice for lots of scenarios and a great way to get started with Ansible automation.
+  title: Learn about Red Hat Ansible Automation Platform
+  intro: Using free, community-stewarded AWX is the right choice for lots of scenarios and a great way to get started with Ansible automation.
   challenges: >-
     For larger organizations adopting Ansible more widely, the automation journey can continue from AWX to Ansible Automation Platform.
-    Designed to overcome challenges with security and performance, Ansible Automation Platform offers an integrated solution that can handle the most complex automation use cases.
+    Ansible Automation Platform is an integrated solution designed for large-scale production environments.
   migrating: >-
-    Ansible Automation Platform is built on multiple open-source projects, including AWX and Event-Driven Ansible, and reduces engineering team burden with tested and supported automation capabilities.
-    The following section lists some key things to help you understand when it makes sense to migrate from AWX to Ansible Automation Platform.
+    A key component within Ansible Automation is Ansible Automation Controller, which is built from the open-source AWX project.
+    The following section lists some of the main differences between AWX and Ansible Automation Controller.
   comparison:
     support:
       title: Support
@@ -140,27 +141,17 @@ migrating:
       title: Production workloads
       icon: /images/icons/scale.svg
       awx: AWX offers an API that works best with development environments and automation projects with up to x nodes.
-      aap: Ansible Automation Platform can tackle heavy workloads across a large number of production nodes.
+      aap: Ansible Automation Controller can tackle heavy workloads across a large number of production nodes.
     tested:
       title: Security and reliability
       icon: /images/icons/trusted.svg
       awx: AWX is frequently released from a fast-moving development branch, dramatically increasing the risk of security vulnerabilities and performance issues.
-      aap: Ansible Automation Platform offers tried and tested software that is security-hardened with performance testing, bug fixes, and standardized practices.
+      aap: Ansible Automation Controller offers tried and tested software that is security-hardened with performance testing, bug fixes, and standardized practices.
     platform:
       title: Integration
       icon: /images/icons/interoperability.svg
       awx: Build automation solutions using AWX in combination with other open-source tooling.
-      aap: Get a fully integrated platform built from over 20 open-source projects, including Event-Driven Ansible.
-    collections:
-      title: Collections
-      icon: /images/icons/collections.svg
-      awx: Use community collections.
-      aap: Reliably cover any automation use case with Red Hat certified collections.
-    cloud:
-      title: Cloud deployments
-      icon: /images/icons/cloud-automation.svg
-      awx: Install on Kubernetes via the AWX Operator.
-      aap: Take advantage of full benefits of the cloud with AAP services.
+      aap: Ansible Automation Controller is a single component in Ansible Automation Platform, which offers a fully integrated platform built from over 20 open-source projects.
 redhat_aap:
   compare:
     text: Find out more about Ansible, AWX, and Red Hat Ansible Automation Platform and make the best choice when deciding on automation tooling for your organization.
