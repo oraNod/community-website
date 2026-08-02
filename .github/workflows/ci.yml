@@ -7,6 +7,11 @@ on:
       - "main"
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   nox-sessions:
     uses: ./.github/workflows/reusable-nox.yml
+  pre-commit:
+    uses: ./.github/workflows/reusable-pre-commit.yml
