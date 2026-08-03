@@ -97,6 +97,33 @@ maintainers:
     grow:
       label: Explore ways to grow community
       link: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#expanding-the-collection-community"
+# Start collections band on the homepage
+collections:
+  title: Ansible collections
+  intro: Ansible collections provide automation content such as playbooks, roles, modules, and plugins.
+  url: link://slug/collections
+  view: View on Galaxy
+  spotlight:
+    first:
+      name: community.general
+      description: Provides many modules and plugins.
+      installation: ansible-galaxy collection install community.general
+      galaxy: "https://galaxy.ansible.com/ui/repo/published/community/general/"
+    second:
+      name: kubernetes.core
+      description: Manage Kubernetes installations.
+      installation: ansible-galaxy collection install kubernetes.core
+      galaxy: "https://galaxy.ansible.com/ui/repo/published/kubernetes/core"
+    third:
+      name: theforeman.foreman
+      description: Manage Foreman and Katello installations.
+      installation: ansible-galaxy collection install theforeman.foreman
+      galaxy: "https://galaxy.ansible.com/ui/repo/published/theforeman/foreman"
+    fourth:
+      name: community.aws
+      description: A variety of Ansible content to help automate the management of AWS services.
+      installation: ansible-galaxy collection install community.aws
+      galaxy: "https://galaxy.ansible.com/ui/repo/published/community/aws/"
 # Start bullhorn band on the homepage
 bullhorn:
   title: Grab the Bullhorn

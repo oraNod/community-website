@@ -1,0 +1,39 @@
+.homepage-collections-band {
+  background-color: $white;
+}
+
+.collections-card {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 2rem;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: $white;
+  justify-content: stretch;
+}
+
+.collections-content {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+
+  h3 {
+    font-size: $font-md;
+    font-weight: 600;
+    text-transform: none;
+  }
+  p {
+    font-size: $font-sm;
+    text-transform: none;
+    text-align: left;
+  }
+  a {
+    color: $blue-anchor;
+    font-size: $font-sm;
+  }
+}
+
+.view-galaxy {
+  padding-top: 1.2rem;
+}

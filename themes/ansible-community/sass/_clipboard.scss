@@ -31,6 +31,15 @@
   }
 }
 
+.collections-clipboard {
+  .btn {
+    width: 32rem;
+    justify-content: center;
+    text-align: left;
+    height: fit-content;
+  }
+}
+
 .clipboard .popup {
   display: flex;
   position: absolute;
@@ -51,4 +60,22 @@
 
 .clipboard .popup.hidden {
   display: none;
+}
+
+@media screen and (max-width: 1560px) {
+  .collections-clipboard {
+    width: 21rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .collections-clipboard {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clipboard {
+    display: none;
+  }
 }

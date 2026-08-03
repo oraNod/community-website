@@ -1,0 +1,31 @@
+<div class="grid-wrapper homepage-collections-band full-width-band"
+     id="collections">
+  <div class="section-title width-12-12 width-12-12-m">
+    <div class="section-top">
+      <i class="fas fa-file-code section-icon"></i>
+      <h2>{{ homepage.collections.title }}</h2>
+      <div class="section-view-more">
+        <span class="homepage-link"><a href="{{ homepage.collections.url }}" target="_blank">{{ homepage.labels.view_more }}</a>&ensp;<i class="fa fa-arrow-right" aria-hidden="true" /></span>
+      </div>
+    </div>
+    <p>{{ homepage.collections.intro }}</p>
+  </div>
+  {% for key, item in homepage.collections.spotlight.items() %}
+    <div class="collections-card width-6-12 width-12-12-m">
+      <div class="collections-content">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+        <div class="clipboard collections-clipboard">
+          <button class="btn" data-clipboard-text="{{ item.installation }}">
+            {{ item.installation }}&ensp;<i class="fa fa-copy" aria-hidden="true" />
+          </button>
+          <div class="popup hidden">
+            <p>{{ homepage.banner.copy_success_message }}</p>
+          </div>
+        </div>
+        <span class="homepage-link view-galaxy"><a href="{{ item.galaxy }}" target="_blank">{{ homepage.collections.view }}</a></span>
+      </div>
+    </div>
+  {% endfor %}
+  {% include "homepage-back-to-top.tmpl" %}
+</div>
