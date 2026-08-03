@@ -5,8 +5,8 @@ clipboard.on('success', function (e) {
   console.info('Text:', e.text);
   console.info('Trigger:', e.trigger);
 
-  // Display the "Copied" popup text
-  var popup = document.getElementById('clipboard-popup');
+  // Display the "Copied" popup text next to the button that was clicked
+  var popup = e.trigger.parentElement.querySelector('.popup');
   popup.classList.remove('hidden');
 
   // Hide after 2 seconds
