@@ -1,3 +1,9 @@
+[project]
+name = "ansible-docsite"
+version = "0.0.0"
+description = "Ansible community docsite that provides landing pages for docs.ansible.com."
+requires-python = ">=3.13"
+
 [tool.djlint]
 files=["./templates/","./themes/ansible-community/templates/"]
 extension=".tmpl"

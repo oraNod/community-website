@@ -179,3 +179,6 @@ themes/ansible-community/sass/.DS_Store
 
 # Nikola / doitdb files
 .doit.db.*
+
+# uv stuff
+uv.lock
