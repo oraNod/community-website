@@ -1,0 +1,54 @@
+.clipboard {
+  display: flex;
+  position: relative;
+  .btn {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: $grey94 !important;
+    color: $cyan !important;
+    width: 18rem;
+    height: 2.5rem;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: $cyan !important;
+    margin-right: 1px;
+    margin-top: .5rem;
+    padding-right: 2rem;
+    font-family: $font-monospace;
+    font-size: $font-sm;
+    font-weight: 500;
+    align-items: center;
+    &:hover {
+      background-color: $light-grey !important;
+    }
+    i {
+      position: absolute;
+      top: 50%;
+      right: 1rem;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.clipboard .popup {
+  display: flex;
+  position: absolute;
+  top: 1.75rem;
+  right: 1rem;
+  transform: translateY(-50%);
+  padding: 0 3px;
+  height: 1.5rem;
+  background-color: $grey94 !important;
+  color: $cyan !important;
+  border-radius: 1px;
+  font-size: $font-sm;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.clipboard .popup.hidden {
+  display: none;
+}
